@@ -13,7 +13,7 @@ namespace AdvancedTaskPart2.Utilities
         public void WriteNewPasswordToJson(string newPassword)
         {
             // Read existing JSON data from UserInformation.json
-            string currentDirectory = "D:\\Advanced Task Part2-Mars-QA\\AdvancedTask_specsflow";
+            string currentDirectory = "D:\\Advanced Task Part2-Mars-QA\\AdvancedTask_specsflow\\Specsflow_PerformanceTest";
             string filePath = Path.Combine(currentDirectory, "Test Data", "UserInformation.json");
             string json = File.ReadAllText(filePath);
             List<UserInformation> userDataList = JsonConvert.DeserializeObject<List<UserInformation>>(json);

@@ -11,7 +11,7 @@ namespace AdvancedTaskPart2.Utilities
     {
         public static List<T> LoadData<T>(string jsonFileName)
         {
-            string currentDirectory = "D:\\Advanced Task Part2-Mars-QA\\AdvancedTask_specsflow";
+            string currentDirectory = "D:\\Advanced Task Part2-Mars-QA\\AdvancedTask_specsflow\\Specsflow_PerformanceTest";
             string filePath = Path.Combine(currentDirectory, "Test Data", jsonFileName);
             using (StreamReader reader = new StreamReader(filePath))
             {
