@@ -21,14 +21,6 @@ namespace AdvancedTaskPart2.Utilities
             dr.Navigate().GoToUrl("http://localhost:5000/Home");
         }
 
-        //public static void TearDown()
-        //{
-        //    if (dr != null)
-        //    {
-        //        dr.Quit(); // Use Quit to close all windows and end the WebDriver session
-        //        dr = null; // Ensure the driver instance is null after closing
-        //    }
-
-        //}
+       
     }
 }
