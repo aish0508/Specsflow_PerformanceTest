@@ -1,0 +1,13 @@
+[
+  {
+    
+      "Id": 1,
+      "UniversityName": "University of Canterbury",
+      "Country": "New Zealand",
+      "Title": "M.Tech",
+      "Degree": "Computer Science",
+      "YearOfGraduation": "2020",
+      "ExpectedMessage": "This information is already exist."
+    
+  }
+]
